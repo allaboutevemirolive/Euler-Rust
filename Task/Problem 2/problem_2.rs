@@ -21,7 +21,7 @@ fn fibo_even_sum(number: u32) -> u32 {
 }
 
 fn main() {
-    let number = 34;
+    let number = 4_000_000;
     let result = fibo_even_sum(number);
     println!("The sum of even Fibonacci numbers up to {} is {}", number, result);
 }
